@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-bookstory",
+  "version": "1.0.0",
+  "description": "My astounding Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "dependencies": {
+    "babel-preset-vue": "^2.0.2",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2"
+  },
+  "devDependencies": {
+    "@storybook/vue": "^4.0.0-alpha.25",
+    "babel-core": "^6.26.3",
+    "nodemon": "^1.11.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.22.0"
+  }
+}
